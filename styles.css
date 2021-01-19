@@ -5,7 +5,7 @@ body {
     background: #2c2d50;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    height: 100vh;
+    height: 120vh;
     color: #d1caca;
 }
 
@@ -14,20 +14,26 @@ body {
     font-style: italic;
     font-size: 40px;
     text-align: center;
+    height: 100px;
 }
 
 
 #container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
-    height: 60vh;
+    height: 100vh;
+}
+#button-container {
+    
 }
 #buttons {
     width: 60%;
     background: #595a69;
     border: 2px solid #d1caca;
+    display: flex;
+    width: 500px;
     
 }
 #buttons button {
@@ -54,6 +60,8 @@ body {
     display: flex;
     width: 60%;
     justify-content: space-around;
+    margin-top: 0px;
+    height: 12vh;
 }
 #scoreboard {
     width: 500px;
@@ -112,6 +120,9 @@ body {
     text-align: center;
     font-size: 30px;
 }
+#end {
+    margin-top: 50px;
+}
 #reset {
-    display: none;
+    visibility: hidden;
 }

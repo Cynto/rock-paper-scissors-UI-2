@@ -97,7 +97,7 @@ function playGame(playerSelection, computerSelection) {
             end.textContent = 'It\'s a tie!';
             
         }
-        resetButton.style.display = 'block';
+        resetButton.style.visibility = 'visible';
         resetButton.textContent = 'Reset';
         
         
