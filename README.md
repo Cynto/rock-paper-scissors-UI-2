@@ -1,0 +1,1 @@
+In this project I'll create the game rock paper scissors with a UI

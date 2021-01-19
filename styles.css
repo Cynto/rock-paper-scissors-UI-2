@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    background: #2c2d50;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    height: 100vh;
+    color: #d1caca;
+}
+
+#title {
+    color: #d1caca;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+#buttons {
+    width: 60%;
+    background: #595a69;
+    border: 2px solid #d1caca;
+    
+}
+#buttons button {
+    cursor: pointer;
+    padding: 10px 25px;
+    border: #d1caca 2px solid;
+    border-radius: 1px;
+    background: #30324b;
+    margin: 1rem;
+    color: #d1caca;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 4px 5px 0px black;
+    transform: translate(-1%, -3%);
+}
+#buttons button:hover {
+    background: #424466;
+    box-shadow: 2px 5px 0px black;
+    transform: translateX(2px);
+    transform: translateY(1px)
+}
+#choice {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+#scoreboard {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #595a69;
+    border: 2px solid #d1caca;
+    border-radius: 20px;
+    height: 340px;
+    box-shadow: 4px 5px 0px black;
+}
+#round {
+    text-shadow: 1px 1px 1px black;;
+}
+#scoreTitle {
+    margin-top: 0;
+}
+
+#score {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#playerScore {
+   
+}
